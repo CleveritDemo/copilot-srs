@@ -1,0 +1,14 @@
+@startuml
+actor ProjectManager
+
+rectangle TaskflowApp {
+    usecase "Log into the Taskflow app" as UC1
+    usecase "Select a project from the project list" as UC2
+    usecase "View the progress of the project" as UC3
+}
+
+ProjectManager -> UC1
+ProjectManager -> UC2
+ProjectManager -> UC3
+
+@enduml

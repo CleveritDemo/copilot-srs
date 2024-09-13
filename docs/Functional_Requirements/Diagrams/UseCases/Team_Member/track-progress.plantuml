@@ -1,0 +1,14 @@
+@startuml
+actor TeamMember
+
+rectangle TaskflowApp {
+    usecase "Log into the Taskflow app" as UC1
+    usecase "Select a task from the task list" as UC2
+    usecase "View the progress of the task" as UC3
+}
+
+TeamMember -> UC1
+TeamMember -> UC2
+TeamMember -> UC3
+
+@enduml

@@ -1,0 +1,18 @@
+@startuml
+actor User
+
+rectangle TaskflowApp {
+    usecase "Log into the Taskflow app" as UC1
+    usecase "Navigate to the task creation form" as UC2
+    usecase "Enter task details" as UC3
+    usecase "Save the task" as UC4
+    usecase "Display the newly created task" as UC5
+}
+
+User -> UC1
+User -> UC2
+User -> UC3
+User -> UC4
+UC4 -> UC5
+
+@enduml
