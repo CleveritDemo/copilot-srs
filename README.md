@@ -1,25 +1,16 @@
 ## 💻Activity
 
-Using GitHub Copilot for Code Optimization and Uniformity: Specification Creation, Linter Configuration, and Code Improvement
+Using GitHub Copilot for Specification Creation in SRS Documentation.
 
 ## 🎯General Objective
 
-To demonstrate how GitHub Copilot can assist in creating technical documentation, maintaining uniform code by configuring linters and formatters, and optimizing code by identifying redundancies and suggesting improvements to reduce complexity.
+To demonstrate how GitHub Copilot can assist in creating Software Requirements Specification (SRS) documents, it can help streamline the process by suggesting clear, concise language for requirement descriptions, functional specifications, and use case scenarios. 
 
 ## Specific Objectives
 
 - **Create a technical specification document using GitHub Copilot**:
   - Generate an initial structure of the specification document.
   - Automate the drafting of common sections such as functional requirements, non-functional requirements, and system architecture.
-- **Configure linters and formatters with GitHub Copilot Chat**:
-  - Install and configure **ESLint** and **Prettier** using GitHub Copilot to ensure consistent code formatting.
-  - Customize linting and formatting rules based on the project’s needs.
-- **Detect and eliminate duplicated or redundant code with GitHub Copilot**:
-  - Use GitHub Copilot to identify repeated code snippets and suggest ways to consolidate them.
-  - Implement automatic suggestions to improve code clarity and avoid duplication.
-- **Propose improvements and optimizations to reduce code complexity**:
-  - Utilize **Copilot Chat** to receive suggestions for refactoring and code optimization.
-  - Apply simplification and optimization techniques to improve code performance and readability.
 
 ## ℹ️ Requirements
 
@@ -69,7 +60,7 @@ Please help me generate a Software Requirements Specification (SRS) document for
     - Any assumptions about user access and system deployment.
     - Dependencies on external systems or technologies.
 
-If you understand this information I can give you context about my app called TaskFlow
+Please let me know If you understand this information before to give me the full document and then I can give you context about my app called TaskFlow
 ```
 
 🤖 Copilot Answer:
