@@ -1,0 +1,16 @@
+@startuml
+actor ProjectManager
+
+rectangle TaskflowApp {
+    usecase "Log into the Taskflow app" as UC1
+    usecase "Navigate to the reporting section" as UC2
+    usecase "Generate a report on overdue tasks" as UC3
+    usecase "Display the overdue task report" as UC4
+}
+
+ProjectManager -> UC1
+ProjectManager -> UC2
+ProjectManager -> UC3
+UC3 -> UC4
+
+@enduml

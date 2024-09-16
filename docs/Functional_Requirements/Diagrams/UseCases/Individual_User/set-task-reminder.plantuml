@@ -1,0 +1,16 @@
+@startuml
+actor User
+
+rectangle TaskflowApp {
+    usecase "Log into the Taskflow app" as UC1
+    usecase "Select a task from the task list" as UC2
+    usecase "Set a reminder for the task" as UC3
+    usecase "Schedule the reminder" as UC4
+}
+
+User -> UC1
+User -> UC2
+User -> UC3
+UC3 -> UC4
+
+@enduml

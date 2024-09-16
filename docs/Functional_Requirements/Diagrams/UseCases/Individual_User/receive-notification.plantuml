@@ -1,0 +1,12 @@
+@startuml
+actor User
+
+rectangle TaskflowApp {
+    usecase "Send a notification for an upcoming task" as UC1
+    usecase "Receive the notification" as UC2
+}
+
+UC1 -> UC2
+User -> UC2
+
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+actor Administrator
+
+rectangle TaskflowApp {
+    usecase "Log into the Taskflow app" as UC1
+    usecase "Navigate to the app settings section" as UC2
+    usecase "Update the app settings" as UC3
+    usecase "Save the updated settings" as UC4
+}
+
+Administrator -> UC1
+Administrator -> UC2
+Administrator -> UC3
+UC3 -> UC4
+
+@enduml
