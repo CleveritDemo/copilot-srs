@@ -60,7 +60,7 @@ Please help me generate a Software Requirements Specification (SRS) document for
     - Any assumptions about user access and system deployment.
     - Dependencies on external systems or technologies.
 
-If you understand this information I can give you context about my app called TaskFlow
+Please let me know If you understand this information before to give me the full document and then I can give you context about my app called TaskFlow
 ```
 
 🤖 Copilot Answer:
